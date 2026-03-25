@@ -1,0 +1,28 @@
+Java Developer Skills Demand 2026 - Market Research Report
+
+1. Overview
+The demand for Java developers remains strong across all experience levels, driven by enterprise digital transformation, cloud-native apps, and scalable systems. Core Java (17+), OOP, and Spring Boot remain essential.
+
+2. General Essential Skills
+- Core Java (Java 17+)
+- Spring Framework (Boot, Cloud, Security)
+- Microservices Architecture
+- Cloud Platforms (AWS, Azure, GCP)
+- CI/CD & Containers (Docker, Kubernetes)
+- Databases (SQL, NoSQL)
+
+3. Roles & Requirements
+Junior Java Developer (0-2 years):
+- Focus: Core Java, OOP, basic Frameworks, clean code, JUnit.
+
+Senior Java Developer (6+ years):
+- Focus: System Architecture, Performance Tuning, Mentoring, Microservices, JVM optimization, System Design.
+
+Java Architect (10+ years):
+- Focus: Distributed systems, Architecture, ML capabilities integration, Scalability, Reliability, Cross-service communication.
+
+4. Emerging Trends (2026)
+- AI Integration (Spring AI, LangChain4j)
+- Cloud-Native Development
+- Virtual Threads & Concurrency
+- Full-Stack capabilities (React/Angular + Java)

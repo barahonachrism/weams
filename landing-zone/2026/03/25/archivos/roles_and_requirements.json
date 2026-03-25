@@ -1,0 +1,23 @@
+[
+  {
+    "role": "Junior Java Developer",
+    "experience_years": "0-2",
+    "core_skills": ["Core Java (17+)", "OOP", "Spring Boot Basics", "JUnit", "SQL"],
+    "soft_skills": ["Teamwork", "Eagerness to learn"],
+    "emerging_trends": ["AI-assisted coding"]
+  },
+  {
+    "role": "Senior Java Developer",
+    "experience_years": "6+",
+    "core_skills": ["System Design", "Microservices", "Spring Cloud", "Docker/K8s", "Performance Tuning"],
+    "soft_skills": ["Mentorship", "Leadership"],
+    "emerging_trends": ["Cloud-Native", "Virtual Threads"]
+  },
+  {
+    "role": "Java Architect",
+    "experience_years": "10+",
+    "core_skills": ["Distributed Systems Architecture", "Cross-Service Comm", "High Availability", "Enterprise Integration"],
+    "soft_skills": ["Strategic Thinking", "Cross-team communication"],
+    "emerging_trends": ["AI Integration (Spring AI)", "Enterprise ML"]
+  }
+]

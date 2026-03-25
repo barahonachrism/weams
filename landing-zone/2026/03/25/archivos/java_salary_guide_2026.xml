@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<salary_guide year="2026">
+    <country code="US">
+        <role title="Junior Java Developer">
+            <experience>0-2 years</experience>
+            <average_salary currency="USD">102608</average_salary>
+            <demand_trend>Stable</demand_trend>
+            <key_requirements>Core Java, JUnit, Spring Boot Basics</key_requirements>
+        </role>
+        <role title="Mid-Level Java Developer">
+            <experience>3-5 years</experience>
+            <average_salary currency="USD">115322</average_salary>
+            <demand_trend>High</demand_trend>
+            <key_requirements>Spring Framework, Microservices, SQL</key_requirements>
+        </role>
+        <role title="Senior Java Developer">
+            <experience>6-8+ years</experience>
+            <average_salary currency="USD">144186</average_salary>
+            <peak_salary currency="USD">192515</peak_salary>
+            <demand_trend>Very High</demand_trend>
+            <key_requirements>System Design, Cloud Native, Performance Tuning</key_requirements>
+        </role>
+        <role title="Java Architect">
+            <experience>10+ years</experience>
+            <average_salary currency="USD">180000</average_salary>
+            <peak_salary currency="USD">250000</peak_salary>
+            <demand_trend>Surging</demand_trend>
+            <key_requirements>Distributed Systems, AI Integration, Enterprise Architecture</key_requirements>
+        </role>
+    </country>
+    <market_insights>
+        <insight>Java jobs projected growth rate is 13% through the decade.</insight>
+        <insight>High demand hubs include New York and Chicago.</insight>
+        <insight>Full-Stack Java Developers (React/Angular) command higher compensation premiums.</insight>
+    </market_insights>
+</salary_guide>

@@ -48,8 +48,3 @@ terraform.rc
 
 # Agent/AI data
 .gemini/
-.agents/
-
-# Landing Zone files (ignore large data uploads but keep the directory)
-landing-zone/**/archivos/*
-!landing-zone/**/archivos/.gitkeep

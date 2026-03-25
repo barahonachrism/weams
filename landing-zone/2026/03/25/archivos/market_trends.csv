@@ -1,0 +1,9 @@
+skill_category,skill_name,demand_level,related_roles,emerging_trend
+Core,Java 17+,High,"Junior, Senior, Architect",False
+Framework,Spring Boot,High,"Junior, Senior, Architect",False
+Architecture,Microservices,High,"Senior, Architect",False
+Cloud_DevOps,Docker & Kubernetes,High,"Senior, Architect",True
+Cloud_DevOps,GCP/AWS/Azure,High,"Senior, Architect",False
+AI_Integration,Spring AI/LangChain4j,Medium,Architect,True
+Performance,Virtual Threads,Medium,"Senior, Architect",True
+Frontend,React/Angular (Full Stack),Medium,"Junior, Senior",False
