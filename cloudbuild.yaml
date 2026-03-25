@@ -1,0 +1,30 @@
+steps:
+  # Deploy Cloud Function: Bronze Extractor
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: 'gcloud'
+    args:
+      - 'functions'
+      - 'deploy'
+      - 'extract-to-bronze'
+      - '--runtime'
+      - 'python311'
+      - '--trigger-http'
+      - '--source'
+      - './src'
+      - '--entry-point'
+      - 'extractors.bronze_extractor.extract_to_bronze'
+      - '--service-account'
+      - 'sa-bronze-extractor@${PROJECT_ID}.iam.gserviceaccount.com'
+
+  # Sync DAGs and Transformers to Composer Bucket
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - |
+        if [ -n "$_COMPOSER_BUCKET" ]; then
+          gcloud storage rsync src/dags/ gs://${_COMPOSER_BUCKET}/dags/ --recursive
+          gcloud storage rsync src/transformers/ gs://${_COMPOSER_BUCKET}/dags/transformers/ --recursive
+        else
+          echo "No _COMPOSER_BUCKET provided, skipping Composer upload."
+        fi

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "weams_pipeline"
+version = "0.1.0"
+description = "WEAMS Data Engineering Pipeline: Extractors, Dataflow, and DAGs"
+requires-python = ">=3.11"
+dependencies = [
+    "functions-framework",
+    "google-cloud-storage==2.10.0",
+    "google-cloud-bigquery==3.11.4",
+    "python-dotenv",
+    "apache-beam[gcp]",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["extractors*", "transformers*", "dags*", "sql*"]
